@@ -1,0 +1,14 @@
+{
+    "name": "nodejscpp",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+        "prebuild": "node-gyp configure",
+        "build": "node-gyp build",
+        "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+        "start": "node main.js"
+    }
+}
